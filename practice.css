@@ -1,0 +1,154 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+   
+    background: url(/image/cathryn-lavery-fMD_Cru6OTk-unsplash.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+   
+}
+.head{
+    background-color: orange;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0px 10px;
+}
+.head h1{
+    color: rgb(36, 31, 31);
+    text-transform: uppercase;
+    font-size: 1.9rem;
+    font-weight: 700;
+}
+.container{
+    width: 55vw;
+    height: 350px;
+    border: 1px solid rgb(173, 168, 168);
+    margin: 10px auto;
+    padding: 0px 20px;
+    position: relative;
+    background:  rgba(216, 140, 0,.2);
+    border-radius: 6px;
+    box-shadow: 1px 1px 2px rgb(44, 38, 38);
+}
+.container h1{
+    margin-top: 10px;
+    text-transform: uppercase;
+    word-spacing: 10px;
+    text-align: center;
+    animation: fun 4s infinite alternate;
+}
+.area{
+     width: 58%;
+     margin: 40px auto;
+}
+
+textarea{
+    width: 100%;
+    height: 200px;
+    font-size: 1.2rem;
+    font-weight: 500;
+    border-radius: 5px;
+    resize: none;
+}
+textarea:focus{
+   
+    border: 1px solid rgb(126, 126, 221);
+    outline: none;
+}
+.btn{
+    padding: 5px;
+    position: absolute;
+    bottom: 40px;
+    left: 20px;
+    width: 100px;
+    border: 1px solid black;
+    border-radius: 3px;
+    font-size: 1.2rem;
+   
+   
+}
+.btn:hover{
+    color: white;
+    background-color: rgb(65, 77, 185);   
+}
+ .main{
+    max-width: 90vw;
+    margin: 10px auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    padding: 0px 90px;
+}
+.box{
+    position: relative;
+    width: 250px;
+    height: 200px;
+    border: 2px solid rgba(165, 158, 158,.8);
+    background-color: rgba(216, 140, 0,.2);
+    border-radius: 8px;
+    padding: 10px;
+    font-size: 20px;
+    font-weight: 500;
+
+}
+.btn2{
+    position: absolute;
+    width: 80px;
+    font-size: 14px;
+    font-weight: 600;
+    bottom: 10px;
+    left: 15px;
+    box-shadow: 1px 1px 2px rgb(44, 38, 38);;
+}
+h2,h4{
+    font-size: 25px;
+    color: rgb(2, 1, 1);
+    background:orange;
+    border-radius: 5px;
+    padding: 2px 8px;
+    margin-bottom: 5px;
+}
+ /* .contain{
+    width: 235px;
+    height: 200px;
+    border: 1px solid  rgb(175, 167, 167);
+    border-radius: 5px;
+    margin: 5px 10px; 
+    font-size: 1.2rem; 
+    overflow: auto;
+    box-shadow: 1px 1px 2px rgb(44, 38, 38);
+    background: rgba(196, 183, 183,0.2);
+    word-wrap: break-word;
+    position: relative;
+} 
+.btns{
+    position: absolute;
+    padding: 2px;
+    width: 60px;
+    border: 1px solid black;
+    border-radius: 3px;
+    font-size: 1rem;
+    bottom: 0px;
+    left: 80px;  
+    font-weight: 600;
+}
+.btns:hover{
+    color: white;
+    background-color: rgb(65, 77, 185);   
+} */
+@keyframes fun{
+         0%{ color: rgb(212, 50, 0);}
+         10%{color: rgb(10, 96, 177);}
+         20%{color: rgb(53, 7, 7);}
+         35%{color: rgb(26, 7, 199);}
+         55%{ color: rgb(1, 0, 2);}
+         75%{ color: rgb(69, 2, 75);}
+         100%{color: rgb(182, 17, 17);}
+}
+/* <div class="box">
+             <h3>Notes</h3>
+              <p>helo</p>
+             <button>delete</button>
+       </div> */
