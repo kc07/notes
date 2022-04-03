@@ -110,34 +110,7 @@ h2,h4{
     padding: 2px 8px;
     margin-bottom: 5px;
 }
- /* .contain{
-    width: 235px;
-    height: 200px;
-    border: 1px solid  rgb(175, 167, 167);
-    border-radius: 5px;
-    margin: 5px 10px; 
-    font-size: 1.2rem; 
-    overflow: auto;
-    box-shadow: 1px 1px 2px rgb(44, 38, 38);
-    background: rgba(196, 183, 183,0.2);
-    word-wrap: break-word;
-    position: relative;
-} 
-.btns{
-    position: absolute;
-    padding: 2px;
-    width: 60px;
-    border: 1px solid black;
-    border-radius: 3px;
-    font-size: 1rem;
-    bottom: 0px;
-    left: 80px;  
-    font-weight: 600;
-}
-.btns:hover{
-    color: white;
-    background-color: rgb(65, 77, 185);   
-} */
+ 
 @keyframes fun{
          0%{ color: rgb(212, 50, 0);}
          10%{color: rgb(10, 96, 177);}
@@ -147,8 +120,110 @@ h2,h4{
          75%{ color: rgb(69, 2, 75);}
          100%{color: rgb(182, 17, 17);}
 }
-/* <div class="box">
-             <h3>Notes</h3>
-              <p>helo</p>
-             <button>delete</button>
-       </div> */
+       @media screen and (max-width:1063px) {
+        .box {
+            width: 230px;
+            margin: 2px;
+        }
+    
+        .add {
+            width: 70px;
+            height: 27px;
+            font-size: 13px;
+            font-weight: 600;
+        }
+    }
+    
+        @media screen and (max-width:1003px) {
+            .container h1 {
+                font-size: 1.6rem;
+            }
+    
+            .add {
+                width: 70px;
+                height: 27px;
+                font-size: 13px;
+                font-weight: 700;
+    
+            }
+    
+            .main {
+                max-width: 85vw;
+                padding: 0px 10px;
+            }
+    
+            .area {
+                width: 80%;
+                height: 180px;
+            }
+    
+            .btn {
+                bottom: 18px;
+            }
+    
+            textarea {
+                width: 100%;
+                height: 100%;
+            }
+        }
+    
+        @media screen and (max-width:942px){
+            .main{
+                width: 80vw;
+                padding: 0px 5px;
+            }
+                        .box{
+                            width: 45%;
+                            height: 150px;
+                        }
+                        .btn2{
+                                    bottom: 5px;
+                                    width: 60px;
+                                    height: 27px;
+                                    font-size: 10px;
+                        }
+    
+    
+        }
+    
+        @media screen and (max-width:750px) {
+            .area{
+                margin-top: 14px;
+            }
+            .head h1{
+                text-align: center;
+            }
+            .container{
+                width: 70vw;
+            }
+        }
+        @media screen and (max-width:526px){
+    
+             .box{
+                 width: 100%;
+             }
+             .container{
+                 width: 70vw;
+             }
+             .container h1{
+                font-size: 22px;
+            }
+        }
+    
+        @media screen and (max-width:424px){
+            .head h1{
+                font-size: 1.4rem;
+            }
+            .container{
+                width: 80vw;
+                height: 350px;
+            }
+              .container h1{
+                  font-size: 20px;
+              }
+              .main{
+                  max-width: 70vw;
+              }
+              
+        }
+             
